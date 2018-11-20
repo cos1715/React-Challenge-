@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Rank = ({ }) => (
-  <button className="btn btn-primary rank" name="rank">Rank</button>
+const Rank = ({ sortTable }) => (
+  <button className="btn btn-primary rank" name="rank" onClick={sortTable}>Rank</button>
 );
 
 export default Rank;
